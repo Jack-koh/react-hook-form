@@ -9,7 +9,7 @@ async function sleep(ms: number) {
 let renderCount = 0;
 
 /** https://react-hook-form.com/api/useform/formstate */
-export default function Watch() {
+export default function Form() {
   renderCount++;
 
   const { register, handleSubmit, formState: {

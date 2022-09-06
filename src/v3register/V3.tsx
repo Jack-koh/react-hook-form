@@ -11,7 +11,7 @@ type FormValues = {
 };
 
 /**https://react-hook-form.com/api/useform/register */
-export default function App() {
+export default function Register() {
   renderCount++;
 
   const {

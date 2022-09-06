@@ -5,6 +5,9 @@ import V2 from './v2improve/V2'
 import V3 from './v3register/V3'
 import V4 from './v4watch/V4'
 import V5 from './v5form/V5'
+import V6 from './v6setValue/V6'
+import V7 from './v7reset/V7'
+import V8 from './v8trigger/V8'
 import './styles.css'
 
 export default function App() {
@@ -27,7 +30,13 @@ export default function App() {
       element: <V5 />
     }, {
       path: '/v6',
-      element: <div>안녕하세요</div>
+      element: <V6 />
+    }, {
+      path: '/V7',
+      element: <V7 />
+    }, {
+      path: '/V8',
+      element: <V8 />
     }, {
       path: '*',
       element: <Navigate to="/v1" />
