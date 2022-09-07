@@ -1,5 +1,6 @@
 import React from "react";
 import { useRoutes, Navigate } from 'react-router-dom'
+import Test from './test/Test';
 import V1 from './v1getStarted/V1'
 import V2 from './v2improve/V2'
 import V3 from './v3register/V3'
@@ -13,6 +14,10 @@ import './styles.css'
 export default function App() {
 
   return useRoutes([
+    {
+      path: '/test',
+      element: <Test />,
+    },
     {
       path: '/v1',
       element: <V1 />
