@@ -20,6 +20,7 @@ export default function Trigger() {
 
   return (
     <div>
+      
       <Headers
         renderCount={renderCount}
         description="Performant, flexible and extensible forms with easy-to-use validation."
